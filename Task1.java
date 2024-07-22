@@ -12,9 +12,7 @@ public class Task1 { // CREATING A GAME NAMED AS "GUESS THE NUMBER"
         // HERE ARE THE RULES
         System.out.println(
                 "\n \n \n \n \n--------------------------------------------------------------------------------------------------------------\nA RANDOM NO.IS GENERATED BETWEEN (1-10), NOW YOU HAVE ONLY 5 CHANCES TO GUESS THE CORRECT NUMBER, AFTER EVERY CHANCE A HINT WILL ALSO BE PROVIDED FOR YOUR HELP!!!⭐️\n--------------------------------------------------------------------------------------------------------------");
-                if (condition) {
-                    
-                }
+
         int count = 0;
 
         // here starts the game!!
