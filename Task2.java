@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Task2 {
+public class Task2 { // CREATING GRADE CALCULATOR
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -22,7 +22,7 @@ public class Task2 {
         Float percentage=(float)(PHYSICS + CHEMISTRY + MATHS)/3;
 
         // HERE WE ARE CALCULATING THE TOTAL MARKS
-        System.out.println("\nTotal Marks Obtained:-- " + sum);
+        System.out.println("\nTotal Marks Obtained:-- " + sum+"/300");
 
         // HERE WE ARE CALCULATING THE PERCENTAGE
         System.out.println("Total Percentage Obtained:-- "+percentage+"%");
