@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
-public class Task3 {// CREATING ATM INTERFACE USING OOPS-----------------------------------------------
+public class Task3 {// CREATING ATM INTERFACE USING
+                    // OOPS-----------------------------------------------
     public static void main(String[] args) {
         Atm a1 = new Atm();
         a1.checkPin();
@@ -48,8 +49,6 @@ class Atm {
 
         setBalance(balance + depositAmount);
 
-        
-
         System.out
                 .println("\n    Amount Deposited Successfully✅✅\n    Updated Balance:-- ₹" + getBalance());
 
@@ -63,11 +62,21 @@ class Atm {
         System.out.print("👉Enter The Amount You Want To WITHDRAW:-- ");
         int withdrawAmount = sc.nextInt();
 
-        setBalance(balance - withdrawAmount);
+        if (withdrawAmount < getBalance()) {
 
-        System.out.println("\n    Amount Withdrawl Successfull✅✅\n    Updated Balance:-- ₹"+getBalance());
+            setBalance(balance - withdrawAmount);
 
-        System.out.print("-------------------------------------------------------------\n");
+            System.out.println("\n    Amount Withdrawl Successfull✅✅\n    Updated Balance:-- ₹" + getBalance());
+
+            System.out.print("-------------------------------------------------------------\n");
+
+        } else {
+            // System.out.print("-------------------------------------------------------------\n");
+
+            System.out.println("\n            ❌❌ Insufficient Funds!!");
+
+            System.out.print("-------------------------------------------------------------\n");
+        }
         menu();
     }
 
