@@ -24,14 +24,16 @@ public class Task1 { // CREATING A GAME NAMED AS "GUESS THE NUMBER"
             // first case
             if (playerGuess > 10) {
                 System.out.println(
-                        "Incorrect Attempt!! You Have To Choose Between (1-10)!! \nYou Have Also Lost Your First Chance");
+                        "Incorrect Attempt!! You Have To Choose Between (1-10)!! \nYou Have Also Lost A Chance");
                 continue;
             }
 
             // main cases for the game
             if (playerGuess == random) {
                 System.out.println(
-                        "\n--------------------------------------------------------------------------------------------------------------\n🎉🎉 Absolutely Correct Answer, You Won!!\n            Total Attempts:-- "+count+"\n--------------------------------------------------------------------------------------------------------------");
+                        "\n--------------------------------------------------------------------------------------------------------------\n🎉🎉 Absolutely Correct Answer, You Won!!\n            Total Attempts:-- "
+                                + count
+                                + "\n--------------------------------------------------------------------------------------------------------------");
                 break;
 
             } else if (playerGuess < random) {
