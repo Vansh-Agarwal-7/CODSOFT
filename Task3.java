@@ -160,7 +160,7 @@ class Atm {
             } else {
                 System.out.print("-------------------------------------------------------------\n");
 
-                System.out.println("           ❌❌Choose A Valid Option!!");
+                System.out.println("           ❌❌ Choose A Valid Option!!");
 
                 System.out.print("-------------------------------------------------------------\n");
                 menu();
