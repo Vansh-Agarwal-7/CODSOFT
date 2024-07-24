@@ -1,13 +1,13 @@
 import java.util.Scanner;
 
-public class Task3 {// MAIN METHIOD-----------------------------------------------
+public class Task3 {// CREATING ATM INTERFACE USING OOPS-----------------------------------------------
     public static void main(String[] args) {
         Atm a1 = new Atm();
         a1.checkPin();
     }
 }
 
-// CREATING INTERFACE USING OOPS------------------------------------------------
+// CREATING INTERFACE ------------------------------------------------
 class Atm {
     Scanner sc = new Scanner(System.in);
 
