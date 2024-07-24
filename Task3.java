@@ -44,7 +44,7 @@ class Atm {
     void depositMoney() {
         System.out.print("-------------------------------------------------------------\n");
 
-        System.out.print("👉Enter The Amount You Want To DEPOSIT:-- ");
+        System.out.print("👉Enter The Amount You Want To DEPOSIT:-- ₹");
         double depositAmount = sc.nextInt();
 
         setBalance(balance + depositAmount);
@@ -59,7 +59,7 @@ class Atm {
     void withdrawMoney() {
         System.out.print("-------------------------------------------------------------\n");
 
-        System.out.print("👉Enter The Amount You Want To WITHDRAW:-- ");
+        System.out.print("👉Enter The Amount You Want To WITHDRAW:-- ₹");
         int withdrawAmount = sc.nextInt();
 
         if (withdrawAmount < getBalance()) {
@@ -139,7 +139,7 @@ class Atm {
 
         System.out.println("1. Deposit Money\n2. Withdraw Money\n3. A/C Balance\n4. Exit");
 
-        System.out.print("\n😄Choose One Option, Press(1-4):-- ");
+        System.out.print("-> Choose One Option, Press(1-4):-- ");
         int option = sc.nextInt();
 
         while (true) {
