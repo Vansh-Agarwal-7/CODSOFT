@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Task3 {// CREATING ATM INTERFACE USING
+public class ATM_Interface {// CREATING ATM INTERFACE USING
                     // OOPS-----------------------------------------------
     public static void main(String[] args) {
         Atm a1 = new Atm();
